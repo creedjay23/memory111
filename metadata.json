@@ -1,0 +1,8 @@
+{
+  "name": "Remix SH 현장·유휴부지 소통 플랫폼",
+  "description": "서울주택도시공사(SH)의 공사 현장 및 유휴부지 현황을 확인하고 활용 아이디어를 제안하는 모바일 소통 플랫폼 시연 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --sh-green: #16783A;
+    --sh-green-dark: #095A2E;
+    --sh-green-light: #DCF5CE;
+    --sh-sky: #D7F1FA;
+    --sh-bg: #FFFFFF;
+    --sh-border: #E4E9E5;
+    --sh-warning: #F59E0B;
+    --sh-text: #17241C;
+  }
+
+  html,
+  body {
+    font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #17241C;
+    overflow-x: hidden;
+    word-break: keep-all;
+  }
+
+  textarea,
+  input {
+    word-break: break-word;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  select:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #16783A;
+    outline-offset: 2px;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
